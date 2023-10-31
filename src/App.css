@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("");
+  background-size: cover;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.auth-form-wrapper {
+  background-color: #fbf5f5;
+  width: 356px;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+box-shadow: -7px 7px 5px 5px rgba(206, 199, 199, 0.985);
+-webkit-box-shadow: -7px 7px 5px 5px rgba(86, 81, 81, 0.66);
+-moz-box-shadow: -7px 7px 5px 5px rgba(240, 230, 230, 0.66);
+ 
+}
+
+/* .signup-container {
+  padding: 0.5rem 1.5rem;
+} */
+
+.login-form, .signUp-form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+label {
+  text-align: left;
+  padding: 8px 0;
+  font-size: 1rem;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 15px;
+  outline: none;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid;
+  outline: none;
+  
+
+}
+
+input:focus {
+  border: 10px;
+  border-bottom-width: 30px;
+}
+
+
+.checkboxFlex {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.myCheckbox {
+  font-size: 14px;
+}
+
+
+
+button {
+  padding: 0.7rem 0;
+  margin: 0.7rem 0;
+  cursor: pointer;
+  border: none;
+  background-color: #6342f9;
+  color: #fff;
+  border-radius: 7px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover{
+  background-color: #2305aa;
+  color: white;
+}
+
+span, .forgotPassword{
+  color: rgb(23, 70, 199);
+}
+
+span:hover{
+  background-color: #3112bb;
+  color: white;
+}
+
+.forgotPassword:hover{
+  color: #2305aa;
+}
+
+.link-btn {
+  background-color: #fff;
+  color: black;
+  margin-top: 0;
+  padding: 16px 20px;
+  /* gap: 10px; */
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.withGoogle {
+  background-color: #fff;
+  color: black;
+  border: 1px solid rgb(22, 21, 21);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  font-weight: 500;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-evenly;
+  transition: all 0.5s;
+}
+
+.withGoogle:hover{
+  background-color: rgba(221, 219, 215, 0.826);
+  color: black;
+
+
+}
+
+img{
+  width: 50px;
+  height: 50px;
+
+}
+
