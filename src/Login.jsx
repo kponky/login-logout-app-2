@@ -47,8 +47,9 @@ const Login = (props) => {
             </div>
             <button type='submit'>LOGIN</button>
         </form>
+        <div className='line'></div>
         <button className='link-btn' onClick={() => props.onFormSwitch('register')}>Don't have an account? <span>Sign Up</span></button>
-        <button className='withGoogle' onClick={handleClick}><img src= {googleLogo1} alt="Google Logo" />Continue with Googl</button>
+        <button className='withGoogle' onClick={handleClick}><img src= {googleLogo1} alt="Google Logo" />Continue with Google</button>
     </div>
   )
 }

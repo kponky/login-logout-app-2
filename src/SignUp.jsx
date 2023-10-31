@@ -73,6 +73,7 @@ const SignUp = (props) => {
             )}
             <button>SIGN UP</button>
         </form>
+        <div className='line'></div>
         <button className='link-btn signup-btn' onClick={() => props.onFormSwitch('login')}>Already have an account? <span>Login</span></button>
         <button className='withGoogle' onClick={handleClick}><img src= {googleLogo1} alt="Google Logo" />Continue with Google</button>
     </div>
