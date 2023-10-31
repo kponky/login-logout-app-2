@@ -3,13 +3,12 @@ import { initializeApp } from "firebase/app";
 import {getAuth,GoogleAuthProvider} from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDQfOjEYA-C5FCLwYoH0HGexKsDY3iyw-E",
-  authDomain: "login-form-f0013.firebaseapp.com",
-  projectId: "login-form-f0013",
-  storageBucket: "login-form-f0013.appspot.com",
-  messagingSenderId: "233206534120",
-  appId: "1:233206534120:web:489b766d693e9848571e5d",
-  measurementId: "G-QLFDGLKNC1"
+  apiKey: "AIzaSyD_HoU6mZ7BaS62XLLxT2WIDKojUU87jRs",
+  authDomain: "signup-signin-app1.firebaseapp.com",
+  projectId: "signup-signin-app1",
+  storageBucket: "signup-signin-app1.appspot.com",
+  messagingSenderId: "868761426782",
+  appId: "1:868761426782:web:757672b9811d7aeadc4dcf"
 };
 
 // Initialize Firebase
